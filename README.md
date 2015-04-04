@@ -40,7 +40,7 @@ Grayscale.js allows you to easily send images to a separate javascript thread th
 The basic syntax looks like this:
 `.makeGrayscale( [single ] [, complete ] )`
 
-The `makeGrayscale` method can be called on any collection, but will only process <img> tags within the collection. It has two parameters that both represent callbacks:
+The `makeGrayscale` method can be called on any collection, but will only process `img` elements within the collection. It has two parameters that both represent callbacks:
 * __single__ will be fired each time an image in the collection is finished processing. It receives an object containing data about the image that was processed.
 * __complete__ will be fired once all the images in the collection have been successfully processed. It receives an integer representing the total amount of images that were processed.
 
